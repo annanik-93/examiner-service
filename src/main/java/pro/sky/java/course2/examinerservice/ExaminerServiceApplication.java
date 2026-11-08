@@ -16,6 +16,7 @@ public class ExaminerServiceApplication {
     }
 
     // Автоматическое наполнение базы при старте приложения
+
     @Bean
     public CommandLineRunner initData(
             @Qualifier("javaQuestionRepository") QuestionRepository javaRepo,
